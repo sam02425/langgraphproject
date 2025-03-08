@@ -1,11 +1,16 @@
-# langgraphproject
 ---
-title: Agentic AI
-emoji: 🤖
+title: LanggraphAgenticAI
+emoji: 🐨
 colorFrom: blue
-colorTo: indigo
-sdk: gradio
-sdk_version: "3.50.2"
+colorTo: red
+sdk: streamlit
+sdk_version: 1.42.0
 app_file: app.py
 pinned: false
+license: apache-2.0
+short_description: Refined langgraphAgenticAI
 ---
+
+### End To End Agentic AI Projects
+
+The project is in development
