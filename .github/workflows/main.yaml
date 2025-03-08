@@ -21,5 +21,5 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Sam2425:$HF_TOKEN@huggingface.co/spaces/Sam2425/agentic_ai main
+        run: git push --force https://Sam2425:$HF_TOKEN@huggingface.co/spaces/Sam2425/langgraphproject main
 
