@@ -23,7 +23,7 @@ class ChatbotWithToolNode:
         """
         Returns a chatbot node function.
         """
-        llm_wih_tools = self.llm.bind_tools(tools)
+        llm_with_tools = self.llm.bind_tools(tools)
 
         def chatbot_node(state: State):
             """
