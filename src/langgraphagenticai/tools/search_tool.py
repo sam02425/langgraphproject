@@ -8,7 +8,7 @@ def get_tools():
     tools = TavilySearchResults(max_results=5,include_answer=True,
     include_raw_content=True,
     include_images=True)
-    return[tool]
+    return[tools]
 
 def create_tool_node(tools):
     """
